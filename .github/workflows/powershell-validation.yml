@@ -9,6 +9,9 @@ on:
     # Run weekly on Monday at 9:00 AM
     - cron: '0 9 * * 1'
 
+permissions:
+  contents: write
+
 jobs:
   syntax-check:
     name: Syntax Validation
