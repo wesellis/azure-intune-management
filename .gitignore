@@ -1,5 +1,11 @@
 # PowerShell for Azure Intune Management - .gitignore
 
+# Internal review/tracking docs
+SCRIPT-REVIEW-STATUS.md
+*-analysis.csv
+*-validation-report.html
+validation-output.txt
+
 # PowerShell specific
 *.log
 *.tmp
