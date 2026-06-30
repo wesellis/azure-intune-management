@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Remediate Real Time Protection Status
 
@@ -26,6 +26,7 @@
 
 .AUTHOR
     Enterprise PowerShell Framework
+#>
 
 .VERSION
     1.0
@@ -34,14 +35,12 @@
     Requires appropriate permissions and modules
 
 
+
+
 try {
-}
-
-
 $WEErrorActionPreference = "Stop"
 $WEVerbosePreference = if ($WEPSBoundParameters.ContainsKey('Verbose')) { " Continue" } else { " SilentlyContinue" }
 
-try {
     Set-MpPreference -DisableRealtimeMonitoring $false
    ;  $computerstatus = Get-MpComputerStatus -ErrorAction Stop
         

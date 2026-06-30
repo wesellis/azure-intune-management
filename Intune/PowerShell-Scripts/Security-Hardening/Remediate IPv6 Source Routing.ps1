@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Remediate Ipv6 Source Routing
 
@@ -26,6 +26,7 @@
 
 .AUTHOR
     Enterprise PowerShell Framework
+#>
 
 .VERSION
     1.0

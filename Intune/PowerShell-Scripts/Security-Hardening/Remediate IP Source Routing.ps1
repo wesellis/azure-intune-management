@@ -26,6 +26,7 @@
 
 .AUTHOR
     Enterprise PowerShell Framework
+#>
 
 .VERSION
     1.0
@@ -61,9 +62,8 @@ catch {
     return $errMsg
     exit 1
 }
-
-
-
-# Wesley Ellis Enterprise PowerShell Toolkit
+} catch { Write-Error $_.Exception.Message; exit 1 }
+# Enterprise PowerShell Toolkit
 # Enhanced automation solutions: wesellis.com
 # ============================================================================
+

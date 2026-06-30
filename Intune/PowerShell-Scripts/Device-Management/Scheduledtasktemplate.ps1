@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Scheduledtasktemplate
 
@@ -26,6 +26,7 @@
 
 .AUTHOR
     Enterprise PowerShell Framework
+#>
 
 .VERSION
     1.0
@@ -55,7 +56,7 @@ $WETaskXml = @"
     <!-- Define actions here -->
   </Actions>
 </Task>
-" @
+"@
 
 
 
@@ -64,11 +65,9 @@ $WETaskName = " Your Task Name"
 
 $WELogFilePath = Join-Path -Path $env:TEMP -ChildPath " ScriptLog_$(Get-Date -Format 'yyyyMMdd_HHmmss').log"
 
-[CmdletBinding()]
 function WE-Write-Log {
     
 
-[CmdletBinding()]
 function Write-WELog {
     [CmdletBinding()]
 $ErrorActionPreference = " Stop"

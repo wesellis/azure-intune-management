@@ -1,8 +1,7 @@
-﻿# Define the log file path in the Temp folder
+# Define the log file path in the Temp folder
 $LogFilePath = Join-Path -Path $env:TEMP -ChildPath "ScriptLog_$(Get-Date -Format 'yyyyMMdd_HHmmss').log"
 
 # Function to write to the log file
-[CmdletBinding()]
 function Write-Log {
     param (
         [string]$Message,

@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Remediate Netbios
 
@@ -26,6 +26,7 @@
 
 .AUTHOR
     Enterprise PowerShell Framework
+#>
 
 .VERSION
     1.0
