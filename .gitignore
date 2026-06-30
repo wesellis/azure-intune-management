@@ -4,6 +4,7 @@
 SCRIPT-REVIEW-STATUS.md
 *-analysis.csv
 *-validation-report.html
+*validation-report.html
 validation-output.txt
 
 # PowerShell specific
